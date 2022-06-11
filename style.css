@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container button {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.container button .scissors {
+  width: 300px;
+}
+
+.container button .paper {
+  width: 200px;
+}
+
+.container button .rock {
+  width: 200px;
+}
+
+.scores {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.score h3 {
+  font-size: 28px;
+}
+
+.score img {
+  width: 70px;
+  margin: 30px 0;
+  opacity: 0.5;
+}
+
+.score img.winner {
+  width: 100px;
+  opacity: 1;
+}
