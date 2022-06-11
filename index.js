@@ -6,17 +6,17 @@ const yourScore = document.querySelector('#yourScore');
 const selections = [
   {
     name: 'rock',
-    image: '/images/rock.png',
+    image: './images/rock.png',
     beats: 'scissors'
   },
   {
     name: 'paper',
-    image: '/images/paper.ico',
+    image: './images/paper.ico',
     beats: 'rock'
   },
   {
     name: 'scissors',
-    image: '/images/scissors.png',
+    image: './images/scissors.png',
     beats: 'paper'
   }
 ]
